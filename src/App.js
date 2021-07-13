@@ -33,7 +33,9 @@ function App() {
     window.scroll({ top: 0 })
     document.querySelector('html').style.scrollBehavior = ''
     focusHandling('outline');
-  }, [location.pathname]); // triggered on route change
+  }, [location.pathname]); // triggered on route change 
+
+  console.log("수정후에 콘솔")
 
   return (
     <>
