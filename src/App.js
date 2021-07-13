@@ -35,8 +35,6 @@ function App() {
     focusHandling('outline');
   }, [location.pathname]); // triggered on route change 
 
-  console.log("수정후에 콘솔")
-
   return (
     <>
       <Switch>
